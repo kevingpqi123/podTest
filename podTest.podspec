@@ -29,6 +29,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'podTest/Classes/**/*'
+  s.vendored_frameworks = 'framework/*.framework'
+    s.pod_target_xcconfig = {
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+    s.user_target_xcconfig = {
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
   
   # s.resource_bundles = {
   #   'podTest' => ['podTest/Assets/*.png']
