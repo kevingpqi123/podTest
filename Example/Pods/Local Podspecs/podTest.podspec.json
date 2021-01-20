@@ -1,0 +1,22 @@
+{
+  "name": "podTest",
+  "version": "0.1.0",
+  "summary": "A short description of podTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kevingpqi/podTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevingpqi": "kevingpqi@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/kevingpqi/podTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "podTest/Classes/**/*"
+}
